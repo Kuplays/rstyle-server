@@ -12,7 +12,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = "https://kuplays.github.io")
+@CrossOrigin(origins = "https://rstyle-lib.herokuapp.com")
 public class RootController {
     @Autowired
     private BookRepository bookRepository;
